@@ -1,0 +1,16 @@
+{
+    "zsh_overwrite_default": {
+        "features": {
+            "zsh": {
+                "overwriteDefaultOhMyZSH": true
+            }
+        },
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+    },
+    "zsh_overwrite_no": {
+        "features": {
+            "zsh": {}
+        },
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh"
+            }
+        }
+    },
+    "description": "ZSH with Oh-My-ZSH and Powerlevel10k theme",
+    "documentationURL": "https://github.com/robinwalterfit/devcontainers-features/tree/main/src/zsh",
+    "id": "zsh",
+    "licenseURL": "https://github.com/robinwalterfit/devcontainers-features/blob/main/LICENSE",
+    "name": "Customized ZSH",
+    "options": {
+        "overwriteDefaultOhMyZSH": {
+            "type": "boolean",
+            "default": false,
+            "description": "Select if this feature should overwrite any existing Oh-My-ZSH configuration"
+        }
+    },
+    "version": "0.1.0"
+}
